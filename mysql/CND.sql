@@ -1,7 +1,7 @@
-delimiter //
-create Function CND (_X double) 
-returns double
-begin
+DELIMITER //
+CREATE FUNCTION CND (_X double) 
+RETURNS double
+BEGIN
     set @X = _X;
     set @a1 = 0.31938153;
     set @a2 = -0.356563782;
@@ -16,8 +16,8 @@ begin
 
     if @X < 0 then
         set @CND1 = 1 - @CND1;
-    end if;
+    END if;
 
-    return @CND1;
-end //
-delimiter ;
+    RETURN @CND1;
+END //
+DELIMITER ;
