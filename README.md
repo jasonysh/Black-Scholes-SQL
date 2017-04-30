@@ -1,5 +1,5 @@
 # Black-Scholes-SQL
-Black Scholes Formulas written in MySQL
+Black Scholes Formulas written in MySQL. Those .sql are extracted from my private option trading project.
 
 
 Option price:
