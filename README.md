@@ -35,7 +35,7 @@ Advanced Greeks:
 Parameters:
 
     _S0 : Stock price    
-    _q  : dividend yield (% p.a.)
+    _q  : Dividend yield (% p.a.)
     _t  : Time to maturity (% of year)
     _X  : Strike Price
     _r  : Risk-free interest rate (% p.a.)
