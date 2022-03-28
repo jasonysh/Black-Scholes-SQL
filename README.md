@@ -33,7 +33,8 @@ Advanced Greeks:
     Speed(_S0 double, _q double, _t double, _X double, _r double, _s double) 
 
 Parameters:
-    _S0 : Stock price
+
+    _S0 : Stock price    
     _q  : dividend yield (% p.a.)
     _t  : Time to maturity (% of year)
     _X  : Strike Price
