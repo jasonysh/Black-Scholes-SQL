@@ -31,3 +31,12 @@ Advanced Greeks:
     Charm(_CallPut int, _S0 double, _q double, _t double, _X double, _r double, _s double) 
 
     Speed(_S0 double, _q double, _t double, _X double, _r double, _s double) 
+
+Parameters:
+    _S0 : Stock price
+    _q  : dividend yield (% p.a.)
+    _t  : Time to maturity (% of year)
+    _X  : Strike Price
+    _r  : Risk-free interest rate (% p.a.)
+    _s  : Sigma
+    _P  : Option price
